@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ElevenGuard</title>
+	<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500|Roboto:300,400,500,700,900|Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<div class="dashboard">
+	<div class="container-fluid">
+
+<!-- --------------start dashboard header------------ -->
+<section class="dashboard-header">
+	<div class="logo">
+		<a href="index.html">
+			<img src="img/logo.svg" alt="">
+		</a>
+	</div>
+	<div class="dashboard-header__right">
+		<button class="button popup-button">
+			New SSL Check
+		</button>
+		<div class="user">
+		<img src="img/avatar.png" alt="">
+		<a href="log-in.html">Log out</a>
+	</div>
+
+	</div>	
+</section>
+<!-- --------------end dashboard header------------ -->
+
+<!-- ------------------start dashboard content---------------- -->
+<div class="dashboard-content">	
+<h1>Dashboard</h1>
+<div class="dashboard__sub-title">
+	Tracked servers
+</div>
+<div class="dashboard-item">
+	<div class="dashboard-item__left">
+		<div class="icon-status">
+			
+		</div>
+		<div class="dashbord__status-text-wrapper">
+			<div class="dashbord__item-title">
+				app.newserver.io
+			</div>
+			
+			<div class="dashbord-status">
+				Checking...
+			</div>
+
+
+		</div>
+	</div>
+	<div class="dashboard-item__right">
+		<div class="dashboard-item__term">
+			<div class="dashbord__item-title">
+				X days
+			</div>
+			<div class="dashbord-status">
+				from today.
+			</div>
+			
+		</div>
+
+		<img src="img/trush.svg" alt="">
+		
+
+	</div>
+</div>
+
+<div class="dashboard-item">
+	<div class="dashboard-item__left">
+		<div class="icon-status red">
+			
+		</div>
+		<div class="dashbord__status-text-wrapper">
+			<div class="dashbord__item-title">
+				rmov.sefaz.rs.gov.br
+
+			</div>
+			
+			<div class="dashbord-status">
+				AlphaSSL CA - SHA256 - G2
+			</div>
+
+
+		</div>
+	</div>
+	<div class="dashboard-item__right">
+		<div class="dashboard-item__term">
+			<div class="dashbord__item-title">
+				Expired
+
+			</div>
+			<div class="dashbord-status">
+				35 days ago.
+			</div>
+			
+		</div>
+
+		<img src="img/trush.svg" alt="">
+		
+
+	</div>
+</div>
+
+<div class="dashboard-item">
+	<div class="dashboard-item__left">
+		<div class="icon-status red">
+			
+		</div>
+		<div class="dashbord__status-text-wrapper">
+			<div class="dashbord__item-title">
+				rmov.sefaz.rs.gov.br
+
+			</div>
+			
+			<div class="dashbord-status">
+				AlphaSSL CA - SHA256 - G2
+			</div>
+
+
+		</div>
+	</div>
+	<div class="dashboard-item__right">
+		<div class="dashboard-item__term">
+			<div class="dashbord__item-title">
+				Expired
+			</div>
+			<div class="dashbord-status">
+				29 days ago.
+			</div>
+			
+		</div>
+
+		<img src="img/trush.svg" alt="">
+		
+
+	</div>
+</div>
+
+<div class="dashboard-item">
+	<div class="dashboard-item__left">
+		<div class="icon-status green">
+			
+		</div>
+		<div class="dashbord__status-text-wrapper">
+			<div class="dashbord__item-title">
+				meldportaal.fiu-nederland.nl 
+			</div>
+			
+			<div class="dashbord-status">
+				GlobalSign Root CA
+			</div>
+
+
+		</div>
+	</div>
+	<div class="dashboard-item__right">
+		<div class="dashboard-item__term">
+			<div class="dashbord__item-title">
+				7 days 
+			</div>
+			<div class="dashbord-status">
+				from today.
+			</div>
+			
+		</div>
+
+		<img src="img/trush.svg" alt="">
+		
+
+	</div>
+</div>
+
+<div class="dashboard-item">
+	<div class="dashboard-item__left">
+		<div class="icon-status green">
+			
+		</div>
+		<div class="dashbord__status-text-wrapper">
+			<div class="dashbord__item-title">
+				app.quoteaquote.co 
+			</div>
+			
+			<div class="dashbord-status">
+				GeoTrust TLS RSA CA G1
+			</div>
+
+
+		</div>
+	</div>
+	<div class="dashboard-item__right">
+		<div class="dashboard-item__term">
+			<div class="dashbord__item-title">
+				239 days 
+			</div>
+			<div class="dashbord-status">
+				from today.
+			</div>
+			
+		</div>
+
+		<img src="img/trush.svg" alt="">
+		
+
+	</div>
+</div>
+
+</div>
+
+<!-- ------------------end dashboard content---------------- -->
+</div>
+</div>
+<!-- --------------start footer------------------ -->
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="footer__logo">
+			<a href="index.html">
+				<img src="img/footer-logo.svg" alt="">				
+			</a>
+		</div>
+		<div class="footer__copy">
+			ElevenGuard - Monitor your server’s ssl certificate expiration and avoid red lights in production.
+		</div>
+	</div>
+	
+</footer>
+<!-- --------------end footer------------------ -->
+
+<!-- ----------------start popup-------------- -->
+<div class="popup">
+	<div class="popup-content">
+		<h1>Start a New SSL Check</h1>
+		<form action="" class="login-form">
+<!-- ---------add class "error" to the "input-wrapper" for showwing error----- -->
+		<div class="input-wrapper">
+					<img src="img/block.svg" alt="">
+					<input type="password" placeholder="Host name">
+					<div class="error-text">
+		ERROR Example: Type a host name, not a URL.
+	</div>
+				</div>
+		<button class="button">
+					<a href="dashboard.html">Check SSL</a>
+				</button>
+				
+	</form>
+	<div class="close">
+		<img src="img/close.svg" alt="">
+	</div>
+	</div>
+	
+
+</div>
+<!-- ----------------end popup-------------- -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
