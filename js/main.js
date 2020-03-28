@@ -11,6 +11,9 @@ $('.close').click(function(){
 $('.popup-button').click(function(){	
 	$('.popup').css('display', 'flex');			
 	});
+$('.empty__sub-text span').click(function(){	
+	$('.popup').css('display', 'flex');			
+	});
 
 
 });
