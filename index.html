@@ -28,7 +28,8 @@
 		<h1>An <span>SSL checker</span> to avoid red lights in production.</h1>
 		<h3>Monitor your server’s ssl certificate expiration and avoid red lights in production.</h3>
 		<div class="form-row">
-				<div class="input-wrapper error">
+			<!-- ---------add class "error" to the "input-wrapper" for showwing error----- -->
+				<div class="input-wrapper">
 					<img src="img/block.svg" alt="">
 					<input type="text" placeholder="Host name">
 					<div class="error-text">
@@ -75,7 +76,7 @@
 					<h2>
 						<span>No more red lights</span> with SSL certificates.
 					</h2>
-					<div class="about__text">SSL certificates are not valid forever. They expire. That means that every website needs to renew or replace its SSL certificate at least once every two years. So, what happens when your SSL certificate expires? It makes your site/services unreachable. That is essentially a death warrant for your site’s traffic, sales or whatever metric or KPI you value.</div>
+					<div class="about__text">Dont let cert renewal compromise your HTTPS availability. More often than not, script-generated haproxy configuration fails to pick new certificates and will put a red light on production status. Imagine that in a very high traffic web site and in your career.</div>
 					</div>
 				</div>
 			</div>
