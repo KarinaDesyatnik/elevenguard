@@ -15,6 +15,15 @@ $('.empty__sub-text span').click(function(){
 	$('.popup').css('display', 'flex');			
 	});
 
+$('.msg-close').click(function(){
+	$('.msg').hide();
+})
+
+setTimeout(function(){
+	document.getElementById('msg').style.display = 'none';
+}, 15000);
+
+
 
 });
 
